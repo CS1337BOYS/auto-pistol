@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>CS2 AUTO-PISTOL | The 16ms Sub-Tick Rapid-Fire Bypass</title>
+    <meta name="title" content="CS2 AUTO-PISTOL | The mathematically perfect 16ms Sub-Tick Rapid-Fire Bypass">
+    <meta name="description"
+        content="Download the fastest auto-pistol macro for Counter-Strike 2. Perfect for Tec-9, Dual Berettas, and R8 Revolver trolling at maximum mathematical speed with 0.00ms latency.">
+    <meta name="keywords"
+        content="cs2 auto pistol, rapid fire macro, tec9 macro cs2, sub-tick movement cs2, triggerbot alternative, cs1337boys, cs2 macro side button">
+    <meta name="author" content="CS1337BOYS">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cs1337boys.github.io/CS2-Auto-Pistol/">
+    <meta property="og:title" content="CS2 AUTO-PISTOL | Maximum Sub-Tick Fire Rate">
+    <meta property="og:description"
+        content="Tec-9 jamming? Download the perfect 16ms zero-latency Auto-Pistol engine for CS2.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cs1337boys.github.io/CS2-Auto-Pistol/">
+    <meta property="twitter:title" content="CS2 AUTO-PISTOL | Maximum Sub-Tick Fire Rate">
+    <meta property="twitter:description"
+        content="Tec-9 jamming? Download the perfect 16ms zero-latency Auto-Pistol engine for CS2.">
+
+    <!-- Schema.org Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CS2 AUTO-PISTOL",
+      "operatingSystem": "Windows 10, Windows 11",
+      "applicationCategory": "GameUtility",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+          "@type": "Organization",
+          "name": "CS1337BOYS"
+      }
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&family=Roboto:wght@400;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background Decorators -->
+    <div class="bg-diagonal stroke-light"></div>
+    <div class="bg-diagonal orange-fill"></div>
+
+    <nav class="navbar">
+        <div class="logo">CS1337<span>BOYS</span></div>
+        <div class="nav-links">
+            <a href="https://github.com/CS1337BOYS/CS2-Auto-Pistol">GitHub</a>
+            <a href="https://adiru3.github.io/Donate/">Donate</a>
+            <a href="https://steamcommunity.com/groups/CS1337BOYS">Steam Group</a>
+        </div>
+    </nav>
+
+    <main class="hero-container">
+        <section class="hero-text">
+            <h1>UNLEASH MAXIMUM<br><span class="highlight">FIRE RATE</span></h1>
+            <p>CS2's sub-tick engine artificially limits your clicking speed. Our WinAPI hook injects perfect
+                left-clicks every 16ms, granting you the absolute maximum fire rate for weapons like the **Tec-9**,
+                **Dual Berettas**, and perfect timing for **Revolver trolling** without ever jamming.</p>
+            <div class="cta-buttons">
+                <!-- Replace XYZ link once repo logic is confirmed; using `#` as placeholder or github direct -->
+                <a href="https://github.com/CS1337BOYS/auto-pistol/releases/download/V1/AutoPistol.exe" class="btn-primary">DOWNLOAD EXE</a>
+                <a href="#minigame" class="btn-secondary">Test your CPS</a>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat"><span class="orange">16.0</span> MS INTERVAL</div>
+                <div class="stat"><span class="orange">0.0</span> MS DELAY</div>
+                <div class="stat">WINAPI HOOK</div>
+            </div>
+        </section>
+
+        <section class="hero-game" id="minigame">
+            <div class="game-wrapper">
+                <div class="game-header">
+                    <span>CS2 CPS SIMULATOR (HUMAN VS MACRO)</span>
+                    <span class="pulse-dot"></span>
+                </div>
+                <!-- 2D Canvas Target -->
+                <canvas id="pistolCanvas" width="600" height="300"></canvas>
+                <div class="game-controls">
+                    <span><strong>[CLICK CANVAS]</strong> Prove your speed</span>
+                    <span>Macro executes: <strong>62.5 Clicks/sec</strong></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
